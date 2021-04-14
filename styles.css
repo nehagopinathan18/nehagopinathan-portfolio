@@ -16,8 +16,7 @@ body{
 }
 
 .container-center{
-    /*padding-left: 1rem;
-    padding-right: 1rem;*/
+    
     margin: auto;
     max-width: 600px;
 
@@ -38,6 +37,9 @@ body{
     margin: 1rem 1rem 1rem 0rem;
     /**padding: 0.5rem 1rem 0.5rem 1rem;**/
 }
+.link-primary:hover{
+    background-color: var(--hover-color);
+}
 
 .link-secondary{
     text-decoration: none;
@@ -48,6 +50,9 @@ body{
     border-radius: 0.5rem;
     margin: 1rem 1rem 1rem 0rem;
     /*padding: 0.5rem 1rem 0.5rem 1rem;*/
+}
+.link-secondary:hover{
+    background-color: var(--hover-color);
 }
 hr{
     margin: 2rem 0rem;
@@ -77,8 +82,8 @@ hr{
     border-top-right-radius: 2em;
 
 }
-a:hover{
-    background-color: var(--hover-color);
+.list-item-inline:hover{
+    background-color:snow;
 }
 .navigation .link{
     color: var(--text-color);
@@ -126,7 +131,7 @@ a:hover{
     margin: 1em 2em;
 }
 
-.ow{
+.section-bgcolor{
     background-color: #D1D5DB
 }
 .footer{
@@ -135,12 +140,12 @@ a:hover{
     margin-top: 3em;
     text-align: center;
     border-bottom-left-radius: 2em;
-    padding-block: 0.5rem;
+    padding: 0.5rem;
 }
 
 .footer .list-non-bullet{
     margin-top: 0px;
-    margin-bottom: 0px;
+    /* margin-bottom: 3rem; */
     padding-left: 0rem;
     
 }
@@ -150,12 +155,25 @@ a:hover{
     
 }
 
+
 /* projects*/
 /*blogs*/
-.blogs{
-    margin-bottom: 2rem;
-    max-width: 25em;
-    display: block;
+.blog-href{
+    text-decoration: none;
+    margin-left: -13rem;
+    color: whitesmoke;
+    background-color: var(--text-color);
+    border-radius: 0.5rem;
     
+}
+.blog-href:hover{
+    background-color: var(--hover-color);
+}
+.blog-div{
+    margin-left: 7rem;
+    padding: 0.5rem 1rem 0rem 0.5rem;
+    font-size: 1rem;
+    text-align: -webkit-left;
+
 }
 
