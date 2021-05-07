@@ -166,7 +166,6 @@ hr{
     border-radius: 0.5rem;
     
 }
-
 .blog-href:hover{
     background-color: var(--hover-color);
 }
@@ -176,9 +175,6 @@ hr{
     font-size: 1rem;
     text-align: -webkit-left;
 
-}
-.date-style{
-    margin-left: -13rem;
 }
 
 @media only screen and (max-device-width: 480px){
@@ -203,7 +199,7 @@ hr{
     .hero-img{
         max-width: 20em;
     }
-    .link-primary{
+    .link-secondary{
         margin-left: 1.67rem;
     }
     .blog-div{
@@ -213,9 +209,20 @@ hr{
     text-align: justify;
     }
     .date-style{
-        margin-left: -5rem;
+        margin-left: 0rem;
     }
     .blog-href{
-        margin-left: -5rem;
+        margin-left: 0rem;
+    }
+    .container-center{
+        margin-left: 3rem;
+        margin-right: 2rem;
+        text-align: justify;
+    
+    }
+    .sub-heading{
+        margin-left: 3rem;
+        margin-right: 2rem;
+        text-align: justify;
     }
 }
