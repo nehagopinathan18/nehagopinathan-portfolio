@@ -200,7 +200,11 @@ hr{
         max-width: 20em;
     }
     .link-secondary{
-        margin-left: 1.67rem;
+        margin-top: -2.5rem;
+    margin-left: 8rem;
+    display: grid;
+    max-width: none;
+
     }
     .blog-div{
         padding: 1rem 1rem 1rem 1rem;
