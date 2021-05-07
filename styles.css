@@ -166,6 +166,7 @@ hr{
     border-radius: 0.5rem;
     
 }
+
 .blog-href:hover{
     background-color: var(--hover-color);
 }
@@ -176,11 +177,45 @@ hr{
     text-align: -webkit-left;
 
 }
+.date-style{
+    margin-left: -13rem;
+}
 
-/* If the screen size is 600px wide or less, hide the element */
-@media only screen and (max-width: 600px) {
-
-    container {
-      font-style: italic;
+@media only screen and (max-device-width: 480px){
+    .navigation{
+        margin: 0rem 0rem 1rem 0rem;
+        padding: 1rem 1rem 1rem 1rem;
+    border-top-right-radius: 3rem;
+    display: grid;
+    }
+    .nav-brand{
+        margin: 0rem 0rem 0rem 0rem;
+    }
+    .list-non-bullet{
+        margin-top: 0rem;
+    margin-left: -2rem;
+       
+    }
+    .list-item-inline{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    .hero-img{
+        max-width: 20em;
+    }
+    .link-primary{
+        margin-left: 1.67rem;
+    }
+    .blog-div{
+        padding: 1rem 1rem 1rem 1rem;
+    margin-left: 2rem;
+    
+    text-align: justify;
+    }
+    .date-style{
+        margin-left: -5rem;
+    }
+    .blog-href{
+        margin-left: -5rem;
     }
 }
